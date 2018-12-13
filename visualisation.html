@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<title>Meaning in DATA</title>
+	<!-- Add jQuery Script -->
+	<script>
+  	$(document).ready(function(){
+  		$('.carousel').carousel({fullWidth:true}).css("height", $(window).height());
+  		// for next slide
+  		$('.next').click(function(){
+  			$('.carousel').carousel('next');
+  		});
+        
+        // for prev slide
+        $('.prev').click(function(){
+  			$('.carousel').carousel('prev');
+  		});
+  	});
+  </script>
+  <style>
+  	
+  	.carousel .carousel-item>img{
+  		height: 80%;
+  		width: 90%;
+  	}
+  	.next, .prev{
+  		position: absolute;
+  		top:45%;
+  		color:black;
+  		cursor: pointer;
+  	}
+  	.prev{
+  		left: 0px;
+  	}
+    
+    .next{
+    	right:0px;
+    }
+  </style>
+ 
+</head>
+<body>
+
+<div class="full-silder">
+   	<div class="carousel carousel-slider" data-indicators="true">
+   		<a href="#one!" class="carousel-item"><img src="visualisation/exoplanets_radius.png"><h1>Radius </h1></a>
+   		<a href="#two!" class="carousel-item"><img src="visualisation/exoplanet_density.png"><h1> Density</h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/exoplanet_mass.png"><h1>Exoplanet Mass </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/planet_temp.png"><h1>Planet Temperature </h1></a>
+   		<a href="#three!" class="carousel-item"><img src="visualisation/density.png"><h1>Density (after removing outliers) </h1></a>
+   		<a href="#four!" class="carousel-item"><img src="visualisation/gravity.png"><h1>Gravity (Without Outliers) </h1></a>
+   		<a href="#five!" class="carousel-item"><img src="visualisation/orbit_period.png"><h1>Orbit to Period Ratio </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/host_star.png"><h1> Stars : How Big Are They?</h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/host_star_2.png"><h1>Star size compared to Sun </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/star_mass_in_sun.png"><h1>Stars Mass : Sun is an average star </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/luminosity.png"><h1> Luminosity </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/russell_diagram.png"><h1>Hertzsprung–Russell Diagram </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/distance.png"><h1>Location and Discovery : Distance from US </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/discovery_year.png"><h1>Discovery Year </h1></a>
+   		<a href="#!" class="carousel-item"><img src="visualisation/discovery_method.png"><h1>Discovery Method </h1></a>
+   		
+   		
+   	</div>
+
+   	<!-- next and prev buttons -->
+
+   	<div class="next green"><i class="material-icons large">navigate_next</i></div>
+   	<div class="prev green"><i class="material-icons large">navigate_before</i></div>
+   </div>  
+
+ 	
+ </body>
+ </html>
