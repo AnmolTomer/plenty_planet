@@ -13,6 +13,8 @@
  - **✅  [Heroku](https://www.heroku.com/)**
  - **✅  [Github](https://github.com/)**
 
+> [**See It Live**](https://plentyplanet.herokuapp.com)<br /> <br /> 
 
 **[Imgur Album Link](https://imgur.com/a/avUtiCX)**<br /> <br /> 
 Made with :heart: in [VIThink](http://ai-vithink.github.io) and [StackOverflow](https://stackoverflow.com/)<br /> <br /> 
+
